@@ -7,10 +7,28 @@ inputs:
     description: Version
     required: false
     default: 0.2.2
+  cache:
+    description: Enable caching
+    required: false
+    default: true
 
 runs:
   using: composite
   steps:
+    - name: Cache Cargo dependencies
+      if: inputs.cache == 'true'
+      uses: actions/cache@v5
+      with:
+        path: |
+          ~/.cargo/bin/
+          ~/.cargo/registry/index/
+          ~/.cargo/registry/cache/
+          ~/.cargo/git/db/
+          target/
+        key: ${{ runner.os }}-cargo-tq-${{ inputs.version }}
+        restore-keys: |
+          ${{ runner.os }}-cargo-tq-
+
     # https://github.com/marketplace/actions/install-cargo-binstall
     - name: Install Binstall
       uses: cargo-bins/cargo-binstall@v1.17.4
