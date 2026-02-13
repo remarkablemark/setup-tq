@@ -1,5 +1,5 @@
-name: github-actions-composite-template
-description: GitHub Actions Composite Template
+name: setup-tq
+description: Setup GitHub Actions with tq (tomlq)
 author: remarkablemark
 
 inputs:
@@ -19,5 +19,5 @@ runs:
         VERSION: ${{ inputs.version }}
 
 branding:
-  icon: activity
+  icon: type
   color: white
