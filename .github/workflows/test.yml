@@ -39,10 +39,11 @@ jobs:
             exit 1
           fi
 
-      - name: Run action with version
+      - name: Run action with inputs
         uses: ./
         with:
           version: 0.2.1
+          cache: false
 
       - name: Check version
         shell: bash

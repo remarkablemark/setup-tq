@@ -43,6 +43,16 @@ See [action.yml](action.yml)
     version: 0.2.2
 ```
 
+### `cache`
+
+**Optional**: Enable caching. Defaults to `true`:
+
+```yaml
+- uses: remarkablemark/setup-tq@v1
+  with:
+    cache: false
+```
+
 ## License
 
 [MIT](LICENSE)
