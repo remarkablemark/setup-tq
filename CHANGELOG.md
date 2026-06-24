@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.12](https://github.com/remarkablemark/setup-tq/compare/v1.0.11...v1.0.12) (2026-06-24)
+
+
+### Build System
+
+* **deps:** bump actions/cache from 5 to 6 ([#30](https://github.com/remarkablemark/setup-tq/issues/30)) ([ee46ee8](https://github.com/remarkablemark/setup-tq/commit/ee46ee818d77a8c5fc3c7f92879f2f3b14cd6518))
+
 ## [1.0.11](https://github.com/remarkablemark/setup-tq/compare/v1.0.10...v1.0.11) (2026-06-22)
 
 
