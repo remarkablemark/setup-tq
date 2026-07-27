@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.14](https://github.com/remarkablemark/setup-tq/compare/v1.0.13...v1.0.14) (2026-07-27)
+
+
+### Build System
+
+* **deps:** bump cargo-bins/cargo-binstall from 1.21.0 to 1.21.1 ([#34](https://github.com/remarkablemark/setup-tq/issues/34)) ([c3b0255](https://github.com/remarkablemark/setup-tq/commit/c3b0255729da7b2201777bf3cc8d9644c33fd519))
+
 ## [1.0.13](https://github.com/remarkablemark/setup-tq/compare/v1.0.12...v1.0.13) (2026-07-15)
 
 
